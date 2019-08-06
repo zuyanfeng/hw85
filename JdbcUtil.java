@@ -9,6 +9,7 @@ public class JdbcUtil {
     private static final JdbcUtil JDBC_UTIL = new JdbcUtil();
     private JdbcUtil(){
     }
+
     public static JdbcUtil getInstance(){
         return JDBC_UTIL;
     }
